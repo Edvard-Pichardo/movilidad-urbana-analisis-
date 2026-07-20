@@ -110,7 +110,7 @@ Esto nos devuelve una tabla con los clientes VIP (cuartil superior) con su gasto
   <img src="images/resultado3.png" width="400">
   <img src="images/g4.png" width="400">
   <br>
-  <em>Figura: Gasto por cuartil de la base de datos generada </em>
+  <em>Figura: Gasto promedio por cuartil de la base de datos generada </em>
 </p>
 
 **Nota:** La imagen no contiene toda la tabla generada. 
@@ -127,10 +127,13 @@ Esto nos devuelve una tabla con los clientes VIP (cuartil superior) con su gasto
 
 Esto nos devuelve un conjunto de viajes sospechosos, con su duración, distancia y velocidad calculada. Como generé la base de datos a partir de datos aleatorios puede que no aparezcan muchos (o ninguno como es mi caso); si se desea poblar la consulta, se pueden insertar manualmente algunos viajes con velocidades extremas.
 
-<p align="center">
-<img src="images/resultado5.png" width="500">
-</p>
 
+<p align="center">
+  <img src="images/resultado5.png" width="500">
+  <img src="images/g5.png" width="400">
+  <br>
+  <em>Figura: Viajes atípicos </em>
+</p>
 
 ### Dataset temporal – series con demanda horaria y valor de la hora anterior.
 
