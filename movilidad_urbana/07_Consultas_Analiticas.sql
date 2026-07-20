@@ -45,7 +45,7 @@ FROM (
   ) sorted,
   (SELECT @prev_conductor := '', @prev_viajes := 0) init
 ) t
-JOIN Conductores c ON t.id_conductor = c.id_conductor   -- ← unión agregada
+JOIN Conductores c ON t.id_conductor = c.id_conductor   -- unión agregada
 WHERE t.viajes_mes_anterior > 0
   AND (t.viajes - t.viajes_mes_anterior) / t.viajes_mes_anterior < -0.20
 ORDER BY cambio_porcentual ASC;
@@ -74,7 +74,7 @@ FROM (
   ) gasto,
   (SELECT @rownum := 0) r
 ) numerado
-JOIN Clientes cl ON numerado.id_cliente = cl.id_cliente   -- ← unión agregada
+JOIN Clientes cl ON numerado.id_cliente = cl.id_cliente   -- unión agregada
 WHERE numerado.row_num <= numerado.total_clientes * 0.25
 ORDER BY numerado.total_gastado DESC;
 
