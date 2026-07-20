@@ -129,7 +129,6 @@ Esto nos devuelve un conjunto de viajes sospechosos, con su duración, distancia
 
 
 <p align="center">
-  <img src="images/resultado5.png" width="500">
   <img src="images/g5.png" width="400">
   <br>
   <em>Figura: Viajes atípicos </em>
@@ -148,7 +147,10 @@ Esto nos devuelve un conjunto de viajes sospechosos, con su duración, distancia
 Esto nos genera una tabla con varias columnas (features): `fecha`, `hora`, `dia_semana`, `num_viajes`, `tarifa_promedio`, `conductores_unicos` y el valor objetivo/feature `viajes_hora_anterior`. Esto podría tomarse como una base para agregar más características (días festivos, clima) y entrenar un modelo predictivo.
 
 <p align="center">
-<img src="images/resultado4.png" width="500">
+  <img src="images/resultado4.png" width="500">
+  <img src="images/g6.png" width="500">
+  <br>
+  <em>Figura: Dataset temporal previo a realizar un análisis/modelo para predecir el número de viajes esperados la siguiente hora </em>
 </p>
 
 **Nota:** La imagen no contiene toda la tabla generada. También, hay que recordar que, para los días de la semana, tenemos que `domingo = 1` y `sabado = 7`.
