@@ -100,7 +100,7 @@ Esto nos proporciona una lista de conductores, los meses afectados y el porcenta
 Esto nos devuelve una tabla con los clientes VIP (cuartil superior) con su gasto total y el número de orden. Se confirma que representan aproximadamente el 25% de la base de clientes que hicieron viajes.
 
 <p align="center">
-<img src="images/resultado3.png" width="300">
+<img src="images/resultado3.png" width="500">
 </p>
 
 
