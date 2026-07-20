@@ -138,7 +138,8 @@ Esto nos genera una tabla con varias columnas (features): `fecha`, `hora`, `dia_
 <img src="images/resultado4.png" width="500">
 </p>
 
+**Nota:** La imagen no contiene toda la tabla generada. También, hay que recordar que, para los días de la semana, tenemos que `domingo = 1` y `sabado = 7`.
 
 ## Autor
 
-Nombre: Pichardo Rico Cristian Eduardo
+Pichardo Rico Cristian Eduardo
